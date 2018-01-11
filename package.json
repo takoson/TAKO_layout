@@ -1,0 +1,35 @@
+{
+  "name": "tako4",
+  "version": "0.0.0",
+  "main": "gulpfile.js",
+  "keywords": [
+    "gulp"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "~1.18.2",
+    "browser-sync": "^2.23.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "gu": "^0.6.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-less": "^3.4.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp-sourcemaps": "^2.6.3"
+  }
+}
